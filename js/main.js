@@ -93,8 +93,8 @@ v8 = {
     //Heur
 
    
-    time3 = "3 Heure"
-    time6 = "6 Heure"
+    time3 = "3 Heures"
+    time6 = "6 Heures"
     
 
     //affiche heur
@@ -432,7 +432,7 @@ function choixheur (){
         document.getElementById("voitureName").innerHTML=v4["non"]
         document.getElementById("temps").innerHTML=choixHeur; 
         document.getElementById("depot").innerHTML=depot; 
-        document.getElementById("prix").innerHTML=v4["p1"]
+        document.getElementById("prix").innerHTML=v8["p1"]
         document.getElementById("v8").style.display="block"
 
         document.getElementById("total").innerHTML= "21 000$" ; 
@@ -445,7 +445,7 @@ function choixheur (){
         document.getElementById("buttonDeux").style.display="none"
         document.getElementById("rechercheDeux").style.display="none"
         document.getElementById("devis").style.display="block"
-        document.getElementById("voitureName").innerHTML=v4["non"]
+        document.getElementById("voitureName").innerHTML=v8["non"]
         document.getElementById("temps").innerHTML=choixHeur; 
         document.getElementById("depot").innerHTML=depot; 
         document.getElementById("prix").innerHTML=v4["p2"]
